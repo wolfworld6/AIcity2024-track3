@@ -91,8 +91,8 @@ if __name__ == "__main__":
     merge_tiou_threshold = args.merge_tiou_threshold
 
     txt_list = [
-        "./maev1_AMA_f32_f16_score0.2add_score.txt",
-        "./maev2_AMA_f16_f16_score0.2add_score.txt",
+        "./submit/maev1_AMA_f32_f16_score0.2add_score.txt",
+        "./submit/maev2_AMA_f16_f16_score0.2add_score.txt",
     ]
     infos = {}
     for txt_path in txt_list:
