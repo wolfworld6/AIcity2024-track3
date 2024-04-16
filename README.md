@@ -4,6 +4,9 @@
 ## post-process
 
 ### 1. generate txt from csv
+```
+cd post_process
+```
 
 The final best score:
 ```
