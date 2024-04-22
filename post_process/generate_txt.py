@@ -180,9 +180,6 @@ if __name__ == "__main__":
     get_top_1_per_lable(infos)
     merge_same_lable_by_tiou(infos, merge_tiou_threshold)
 
-    n1 = 0
-    n2 = 0
-    id_nums = [0] * 30
     for video_id in range(1, 31):
         # 去掉标签0
         for i in range(1, 16):
@@ -192,10 +189,8 @@ if __name__ == "__main__":
                 num = len(item)
                 for j in range(num):
                     if item[j]["score"] == "#":
-                        n1 += 1
                         continue
                     if int(item[j]["score"].split(".")[1][0:2]) < 20:
-                        n2 += 1
                         continue
 
                     if add_score:
@@ -222,8 +217,3 @@ if __name__ == "__main__":
                             + str(item[j]["seg"][1])
                             + "\n"
                         )
-
-                    id_nums[video_id - 1] += 1
-    print("filter num by lable", n1)
-    print("filter num by score", n2)
-    print("nums of 30 videos", id_nums)
