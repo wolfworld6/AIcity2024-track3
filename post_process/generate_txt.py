@@ -6,9 +6,7 @@ import numpy as np
 import argparse
 
 
-video_id_path = (
-    "/data01/qtwang/Aicity2023-Track3/data/raw_videos/2024-data_video_ids.csv"
-)
+video_id_path = "./2024-data_video_ids.csv"
 videoNames2Id = {}
 with open(video_id_path, "r", encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile)
