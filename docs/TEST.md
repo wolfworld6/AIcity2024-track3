@@ -32,8 +32,12 @@ python inference_video_feature_vitg.py \
 ```
 
 3. Temporal Action Detection
+<a id="TAD"></a>
+
 
 4. Time Correction
+
+    The xxx.csv from  [3. Temporal Action Detection](#TAD)
 ```
 cd $BASE_DIR/post_process
 
