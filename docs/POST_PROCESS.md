@@ -6,7 +6,9 @@ export BASE_DIR=/xxx/AIcity2024-track3
 cd $BASE_DIR/post_process
 ```
 
-The final best score:
+**The final best results**:
+
+Note: This is the result of the first ranking on the public list.
 ```
 python generate_txt.py --csv_path act_pre_ego_crop_AMA_mae2_f16_f16_8h_9k_submmit.csv --out_file submit/act_pre_ego_crop_AMA_mae2_f16_f16_8h_9k_score0.2.txt
 ```
