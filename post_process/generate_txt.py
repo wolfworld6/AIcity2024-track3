@@ -160,6 +160,7 @@ if __name__ == "__main__":
         default=0.1,
         help="the tiou_threshold when merging results of same lable",
     )
+    parser.add_argument("--add_score", action="store_true", default=False)
     args = parser.parse_args()
 
     csv_path = args.csv_path
@@ -167,9 +168,7 @@ if __name__ == "__main__":
     merge_tiou_threshold = args.merge_tiou_threshold
 
     # 是否在输出的txt中加入score信息
-    # add_score = False
-    add_score = True
-    if add_score:
+    if args.add_score:
         out_path = out_file[:-4] + "add_score.txt"
     else:
         out_path = out_file
@@ -183,7 +182,7 @@ if __name__ == "__main__":
     for video_id in range(1, 31):
         # 去掉标签0
         for i in range(1, 16):
-            print(infos.keys())
+            # print(infos.keys())
             if str(i) in infos[(video_id)]:
                 item = infos[(video_id)][str(i)]
                 num = len(item)
@@ -193,7 +192,7 @@ if __name__ == "__main__":
                     if int(item[j]["score"].split(".")[1][0:2]) < 20:
                         continue
 
-                    if add_score:
+                    if args.add_score:
                         f1.write(
                             str(video_id)
                             + " "
