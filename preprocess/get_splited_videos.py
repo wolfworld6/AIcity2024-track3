@@ -4,6 +4,7 @@ import csv
 import argparse
 import glob
 from tqdm import tqdm
+import shutil
 
 _MINUTES_TO_SECONDS=60
 _HOURS_TO_SECONDS=3600
@@ -19,6 +20,8 @@ local_dict = {
     'Right': 'RightsideWindow'
 }
 
+validata_ids = ['user_id_93491', 'user_id_93542', 'user_id_96269', 'user_id_96371', 'user_id_98067',
+                'user_id_98389', 'user_id_99635', 'user_id_99660', 'user_id_99882']
 
 def load_anno_csv(obj_path):
     video_list = {}
@@ -28,7 +31,7 @@ def load_anno_csv(obj_path):
             video_name = row['Filename'] if ' ' not in row['Filename'] else video_name
             video_list.setdefault(video_name, [])
             video_list[video_name].append({
-                'label': row['Label (Primary)'][6:],
+                'label': row['Label (Primary)'][6:].strip(),
                 'start_time': row['Start Time'],
                 'end_time': row['End Time'],
                 'appearance': video_name.split('_')[-1],
@@ -63,29 +66,33 @@ if __name__ == "__main__":
     video_dict = collect_videos(args.video_path)
 
     commands = []
-    with open(args.csv_output, "w") as csvfile: 
-        writer = csv.writer(csvfile)
-        #先写入columns_name
-        writer.writerow(["video_name","label"])
-
+    train_csv = os.path.join(args.csv_output, 'train.csv')
+    val_csv = os.path.join(args.csv_output, 'val.csv')
+    with open(train_csv, 'w') as trn_fp, open(val_csv, 'w') as val_fp: 
         for label_file in tqdm(glob.glob(os.path.join(args.label_path, f'*.csv'))):
             user_id = os.path.basename(label_file).split('.')[0]
             annotations = load_anno_csv(label_file)
+            fp = val_fp if user_id in validata_ids else trn_fp
             for video_name, annotations in load_anno_csv(label_file).items():
                 for idx, ann in enumerate(annotations):
-                    try:
-                        video = video_dict[user_id][ann['camera_view']][ann['appearance']]
-                    except:
-                        import ipdb;ipdb.set_trace()
+                    video = video_dict[user_id][ann['camera_view']][ann['appearance']]
                     if not os.path.exists(video):
                         raise ValueError(f'No such video: {video}')
                     splited_video_name = f"{ann['camera_view']}_{user_id}_NoAudio_{ann['appearance']}_split_{idx+1}.MP4"
-                    writer.writerow([splited_video_name, ann['label']])
+
+                    if (user_id == 'user_id_20090' and ann['appearance'] == '5' and ann['label'] == '1') or \
+                    (ann['camera_view'] == 'RightsideWindow' and user_id == 'user_id_16700' and ann['appearance'] == '7' and ann['label'] in ['0', '1', '2', '3', '5', '13', '15']) or \
+                    (ann['camera_view'] == 'Dashboard' and user_id == 'user_id_59359' and ann['appearance'] == '5' and ann['label'] in ['0', '1', '4', '3', '9', '11']):
+                        continue
+
+                    fp.write(f"{os.path.join(args.save_path, splited_video_name)} {ann['label']}\n")
                 
                     command = f"ffmpeg -i {video} -ss {ann['start_time']} -to {ann['end_time']} -vcodec copy -acodec copy {os.path.join(args.save_path, splited_video_name)}"
                     commands.append(command)
     
     for command in commands:
         os.system(command)
+
+    shutil.copy(val_csv, os.path.join(args.csv_output, 'test.csv'))
 
     print('Done !!!')

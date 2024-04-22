@@ -1,0 +1,545 @@
+{
+    "version": "AI CITY 2024 track-3",
+    "database": {
+        "Dashboard_user_id_51953_NoAudio_3": {
+            "annotations": [],
+            "resolution": "1606*724",
+            "duration": 518.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_51953_NoAudio_3": {
+            "annotations": [],
+            "resolution": "1616*828",
+            "duration": 518.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_51953_NoAudio_3": {
+            "annotations": [],
+            "resolution": "864*746",
+            "duration": 518.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_51953_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1306*786",
+            "duration": 519.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_51953_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1632*838",
+            "duration": 519.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_51953_NoAudio_7": {
+            "annotations": [],
+            "resolution": "838*718",
+            "duration": 519.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_78826_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1514*890",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_78826_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1714*898",
+            "duration": 479.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_78826_NoAudio_5": {
+            "annotations": [],
+            "resolution": "898*720",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_78826_NoAudio_5": {
+            "annotations": [],
+            "resolution": "734*748",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_78826_NoAudio_7": {
+            "annotations": [],
+            "resolution": "652*738",
+            "duration": 479.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_78826_NoAudio_7": {
+            "annotations": [],
+            "resolution": "930*716",
+            "duration": 479.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_15198_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1608*814",
+            "duration": 486.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_15198_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1704*876",
+            "duration": 485.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_15198_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1346*806",
+            "duration": 485.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_15198_NoAudio_5": {
+            "annotations": [],
+            "resolution": "916*746",
+            "duration": 485.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_15198_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1618*792",
+            "duration": 485.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_15198_NoAudio_7": {
+            "annotations": [],
+            "resolution": "936*718",
+            "duration": 485.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_87837_NoAudio_5": {
+            "annotations": [],
+            "resolution": "958*676",
+            "duration": 466.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_87837_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1410*742",
+            "duration": 466.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_87837_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1482*774",
+            "duration": 466.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_87837_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1052*678",
+            "duration": 466.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_87837_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1500*784",
+            "duration": 466.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_87837_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1450*842",
+            "duration": 466.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_12670_NoAudio_7": {
+            "annotations": [],
+            "resolution": "926*688",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_12670_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1656*936",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_12670_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1004*708",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_12670_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1692*802",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_12670_NoAudio_7": {
+            "annotations": [],
+            "resolution": "894*718",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_12670_NoAudio_5": {
+            "annotations": [],
+            "resolution": "828*742",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_81902_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1676*934",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_81902_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1536*788",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_81902_NoAudio_5": {
+            "annotations": [],
+            "resolution": "880*718",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_81902_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1760*948",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_81902_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1032*740",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_81902_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1584*816",
+            "duration": 480.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_33508_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1756*900",
+            "duration": 474.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_33508_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1640*834",
+            "duration": 474.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_33508_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1056*808",
+            "duration": 474.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_33508_NoAudio_7": {
+            "annotations": [],
+            "resolution": "886*764",
+            "duration": 474.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_33508_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1656*968",
+            "duration": 474.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_33508_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1564*1010",
+            "duration": 474.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_22530_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1600*916",
+            "duration": 447.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_22530_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1604*948",
+            "duration": 448.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_22530_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1052*878",
+            "duration": 448.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_22530_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1730*914",
+            "duration": 448.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_22530_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1276*860",
+            "duration": 447.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_22530_NoAudio_7": {
+            "annotations": [],
+            "resolution": "964*890",
+            "duration": 447.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_13148_NoAudio_5": {
+            "annotations": [],
+            "resolution": "984*818",
+            "duration": 464.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_13148_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1662*928",
+            "duration": 464.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_13148_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1812*942",
+            "duration": 463.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_13148_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1668*980",
+            "duration": 464.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_13148_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1804*980",
+            "duration": 463.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_13148_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1482*938",
+            "duration": 463.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_65840_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1782*892",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Rearview_user_id_65840_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1784*874",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_65840_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1704*864",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_65840_NoAudio_5": {
+            "annotations": [],
+            "resolution": "900*752",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_65840_NoAudio_7": {
+            "annotations": [],
+            "resolution": "902*792",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_65840_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1740*810",
+            "duration": 475.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_94265_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1770*818",
+            "duration": 463.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_94265_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1560*732",
+            "duration": 465.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_94265_NoAudio_5": {
+            "annotations": [],
+            "resolution": "896*744",
+            "duration": 465.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_94265_NoAudio_7": {
+            "annotations": [],
+            "resolution": "870*704",
+            "duration": 463.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_94265_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1722*796",
+            "duration": 465.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_94265_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1638*790",
+            "duration": 463.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_26223_NoAudio_3": {
+            "annotations": [],
+            "resolution": "1638*832",
+            "duration": 488.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_26223_NoAudio_3": {
+            "annotations": [],
+            "resolution": "1588*920",
+            "duration": 488.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_26223_NoAudio_3": {
+            "annotations": [],
+            "resolution": "1080*802",
+            "duration": 488.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_26223_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1588*904",
+            "duration": 488.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_26223_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1658*898",
+            "duration": 488.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_26223_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1082*810",
+            "duration": 488.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_42897_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1048*642",
+            "duration": 505.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_42897_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1122*754",
+            "duration": 504.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_42897_NoAudio_5": {
+            "annotations": [],
+            "resolution": "848*706",
+            "duration": 505.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_42897_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1068*642",
+            "duration": 505.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_42897_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1206*740",
+            "duration": 504.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_42897_NoAudio_7": {
+            "annotations": [],
+            "resolution": "836*708",
+            "duration": 504.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_49989_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1372*776",
+            "duration": 507.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_49989_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1410*728",
+            "duration": 507.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_49989_NoAudio_5": {
+            "annotations": [],
+            "resolution": "954*620",
+            "duration": 507.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_49989_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1454*744",
+            "duration": 507.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_49989_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1508*734",
+            "duration": 507.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_49989_NoAudio_7": {
+            "annotations": [],
+            "resolution": "944*618",
+            "duration": 507.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_96715_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1564*842",
+            "duration": 512.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_96715_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1386*856",
+            "duration": 512.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_96715_NoAudio_5": {
+            "annotations": [],
+            "resolution": "1156*866",
+            "duration": 512.0,
+            "subset": "validation"
+        },
+        "Dashboard_user_id_96715_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1560*820",
+            "duration": 511.0,
+            "subset": "validation"
+        },
+        "Rear_view_user_id_96715_NoAudio_7": {
+            "annotations": [],
+            "resolution": "1564*846",
+            "duration": 511.0,
+            "subset": "validation"
+        },
+        "Right_side_window_user_id_96715_NoAudio_7": {
+            "annotations": [],
+            "resolution": "884*774",
+            "duration": 511.0,
+            "subset": "validation"
+        }
+    }
+}

@@ -1,5 +1,12 @@
 # AIcity2024-track3
 
+## To-Do
+1. 上传videmaev2 pretrained weight (/data01/qtwang/VideoMAEv2-master/weights/vit_g_hybrid_pt_1200e_k710_ft.pth), 填到FEATURE_EXTRACTION.md
+2. 上传videomaev2 finetune weight (/data01/qtwang/VideoMAEv2-master/workdir/track3_videomae_ego_verb/Crop_Mix_lr_1e-3_epoch_35/checkpoint-best/mp_rank_00_model_states.pt), 填到FEATURE_EXTRACTION.md和TEST.md
+3. 上传A1&A2的video feats（/data01/qtwang/Aicity2023-Track3/data/extracted_features/v2_ego4d_verb_frame-16_sr-2）， 填到FEATURE_EXTRACTION.md
+4. action detection
+5. post process 测试相关部分填到TEST.md
+
 ## Data Structure
 ```
 Aicity2024-track3/data
@@ -21,34 +28,18 @@ Aicity2024-track3/data
 |       |--xxx.MP4
             ...
 |       |--splited_videos_label.csv  
+|--label_A1-train_A1-val.json
+|--label_submit.json
 ```
 
-## Preprocess
+## Workflow
 
-See [preparing dataset](preprocess/README.md)
+The workflow for training action classification model is as follow:
 
-## Post Process
+1. [Dataset Preparation](docs/PREPROCESS.md)
+2. [Feature Extraction](docs/FEATURE_EXTRACTION.md)
+3. [Action Detection](docs/TAD.md)
+4. [Time Correction](docs/POST_PROCESS.md)
 
-### 1. generate txt from csv
-```
-cd post_process
-```
-
-The final best score:
-```
-python generate_txt.py --csv_path act_pre_ego_crop_AMA_mae2_f16_f16_8h_9k_submmit.csv --out_file submit/act_pre_ego_crop_AMA_mae2_f16_f16_8h_9k_score0.2.txt
-```
-
-To be ensembled：
-```
-python generate_txt.py --csv_path action_predict_info_singleview_crop_AMA_f16_f16_submmit.csv --out_file submit/maev2_AMA_f16_f16_score0.2.txt
-```
-```
-python generate_txt.py --csv_path action_predict_info_singleview_crop_AMA_f32_f16_submmit.csv --out_file submit/maev1_AMA_f32_f16_score0.2.txt
-```
-
-
-### 2. ensemble
-```
-python ensemble.py --out_file AMA_mergev1_v2.txt
-```
+## Example for Test on Dataset B
+1. [Test Example](docs/TEST.md)
