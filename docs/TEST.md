@@ -34,3 +34,8 @@ python inference_video_feature_vitg.py \
 3. Temporal Action Detection
 
 4. Time Correction
+```
+cd $BASE_DIR/post_process
+
+python generate_txt.py --csv_path xxx.csv --out_file submit/xxx.txt
+```
