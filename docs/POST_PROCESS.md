@@ -24,5 +24,6 @@ python generate_txt.py --csv_path action_predict_info_singleview_crop_AMA_f32_f1
 
 ## 2. ensemble
 ```
-python ensemble.py --out_file AMA_mergev1_v2.txt
+
+
 ```

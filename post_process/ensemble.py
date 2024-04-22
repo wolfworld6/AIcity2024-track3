@@ -7,15 +7,12 @@ import argparse
 def segment_iou_(target_segment, candidate_segments):
     tt1 = np.maximum(target_segment[0], candidate_segments[0])
     tt2 = np.minimum(target_segment[1], candidate_segments[1])
-    # Intersection including Non-negative overlap score.
     segments_intersection = (tt2 - tt1).clip(0)
     segments_union = (
         (candidate_segments[1] - candidate_segments[0])
         + (target_segment[1] - target_segment[0])
         - segments_intersection
     )
-    # Compute overlap as the ratio of the intersection
-    # over union of two segments.
     if segments_union == 0:
         return 0
     tIoU = segments_intersection.astype(float) / segments_union
@@ -31,7 +28,6 @@ def merge_same_lable_by_tiou_and_score(infos, tiou_threshold):
             visited = [0] * num
 
             for i in range(num - 1):
-                # 跳过已经匹配到的
                 if visited[i]:
                     continue
                 candidate_segments = [
@@ -50,7 +46,6 @@ def merge_same_lable_by_tiou_and_score(infos, tiou_threshold):
                         visited[j] = 1
                 visited[i] = 1
 
-                # 舍弃掉无tiou交集的结果 并且预测概率小于0.5
                 if len(candidate_segments) == 1 and candidate_segments[0][2] < 0:
                     continue
                 st = 0
@@ -71,6 +66,7 @@ def merge_same_lable_by_tiou_and_score(infos, tiou_threshold):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="ensemble")
 
     parser.add_argument(
         "--out_file",
@@ -98,8 +94,6 @@ if __name__ == "__main__":
     for txt_path in txt_list:
         with open(txt_path, "r") as txt_file:
             for line in txt_file.readlines():
-                # print(line.strip().split(" "))
-                # vid, cat, st, et = line.strip().split(" ")
                 vid, cat, st, et, score = line.strip().split(" ")
                 if vid not in infos:
                     infos[vid] = {}
