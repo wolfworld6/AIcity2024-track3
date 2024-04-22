@@ -38,7 +38,7 @@ The workflow for training action classification model is as follow:
 
 1. [Dataset Preparation](docs/PREPROCESS.md)
 2. [Feature Extraction](docs/FEATURE_EXTRACTION.md)
-3. [Action Detection](docs/TAD.md)
+3. [Action Detection](docs/AMA.md)
 4. [Time Correction](docs/POST_PROCESS.md)
 
 ## Example for Test on Dataset B

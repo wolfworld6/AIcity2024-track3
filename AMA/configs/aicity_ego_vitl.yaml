@@ -1,0 +1,62 @@
+dataset_name: aicity
+devices: ['cuda:0']
+train_split: ['training']
+val_split: ['validation']
+dataset: {
+  json_file: ../data/aicity_2024/annotations/label_A1-train_A1-val_v2.json,
+  # json_file: ../data/aicity_2024/annotations/label_submit.json,
+  feat_folder: ../data/aicity_2024/trained_feats/mae2_feats_ego4d_vitl_track3_crop_A1_train_A1_val, # 1408
+  # feat_folder: ../data/aicity_2024/trained_feats_A2/mae2_feats_ego4d_vitl_track3_crop_A1_train_A2_val,
+  file_prefix: ~,
+  file_ext: .npz,
+  num_classes: 16,
+  input_dim: 1408,
+  feat_stride: 16,
+  num_frames: 16,
+  default_fps: 30,
+  trunc_thresh: 0.3,
+  crop_ratio: [0.9, 1.0],
+  max_seq_len: 1536,
+}
+model: {
+  regression_range: [[0, 8], [2, 16], [4, 32], [8, 64], [16, 128], [32, 10000]],
+  fpn_type: identity,
+  n_head: 8,
+  embd_kernel_size: 9,
+  max_buffer_len_factor: 8.0,
+  n_mha_win_size: 9,
+  use_abs_pe: False,
+  use_rel_pe: False,
+}
+opt: {
+  learning_rate: 0.0001,
+  epochs: 20,
+  weight_decay: 0.05,
+}
+loader: {
+  batch_size: 1,
+  num_workers: 8,
+}
+train_cfg: {
+  init_loss_norm: 250,
+  clip_grad_l2norm: 1.0,
+  cls_prior_prob: 0.01,
+  center_sample: radius,
+  center_sample_radius: 1.5,
+  dropout: 0.1,
+  droppath: 0.1,
+  t_c_alpha: 0.8,
+  al_loss_weight: 0.2,
+  seg_loss_weight: 0.0,
+  cont_loss_weight: 0.0
+}
+test_cfg: {
+  pre_nms_topk: 5000,
+  # pre_nms_topk: 3000,
+  # max_seg_num: 150,
+  max_seg_num: 1536,
+  min_score: 0.2,
+  nms_sigma : 0.25,
+  multiclass_nms: True
+}
+output_folder: ./ckpt/
