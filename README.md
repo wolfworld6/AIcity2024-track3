@@ -1,6 +1,6 @@
 # Augmented Self-Mask Attention Transformer for Naturalistic Driving Action Recognition
 
-The 1nd Place Submission to The 8th NVIDIA AI City Challenge (2024) Track 3: Natural- istic Driving Action Recognition
+The 1nd Place Submission to The 8th NVIDIA AI City Challenge (2024) Track 3: Natural- istic Driving Action Recognition.
 
 <!-- ![framework](/assets/framework.png) -->
 
@@ -14,8 +14,8 @@ The 1nd Place Submission to The 8th NVIDIA AI City Challenge (2024) Track 3: Nat
 1. 上传videmaev2 pretrained weight (/data01/qtwang/VideoMAEv2-master/weights/vit_g_hybrid_pt_1200e_k710_ft.pth), 填到FEATURE_EXTRACTION.md
 2. 上传videomaev2 finetune weight (/data01/qtwang/VideoMAEv2-master/workdir/track3_videomae_ego_verb/Crop_Mix_lr_1e-3_epoch_35/checkpoint-best/mp_rank_00_model_states.pt), 填到FEATURE_EXTRACTION.md和TEST.md
 3. 上传A1&A2的video feats（/data01/qtwang/Aicity2023-Track3/data/extracted_features/v2_ego4d_verb_frame-16_sr-2）， 填到FEATURE_EXTRACTION.md
-4. action detection
-5. post process 测试相关部分填到TEST.md
+4. action detection 训练生成文件和Test.md中生成文件分开，和后处理要能对上，ckpt是否要生成文件放在固定目录下
+
 
 ## Data Structure
 ```
