@@ -1,5 +1,5 @@
 # Preparation
-## env
+## Install environment
 ```
 export BASE_DIR=/xxx/AIcity2024-track3
 cd $BASE_DIR/AMA

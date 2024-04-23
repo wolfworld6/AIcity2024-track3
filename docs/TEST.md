@@ -34,6 +34,13 @@ python inference_video_feature_vitg.py \
 3. Temporal Action Detection
 <a id="TAD"></a>
 
+    specify annotation json_file with "label_submit_B.json", "pre_nms_topk: 3000", "max_seg_num: 150" then run:
+
+```
+cd $BASE_DIR/AMA
+
+python eval.py ./configs/aicity_ego_vitl.yaml ckpt/aicity_ego_vitl_ckpt/mae2_f16_e20_1024_ide_4h_w9_feats_ego4d_vitl_f16_8h_9k_track3_crop_A1_train_A2_val/
+```
 
 4. Time Correction
 
