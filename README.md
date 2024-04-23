@@ -2,7 +2,11 @@
 
 The 1nd Place Submission to The 8th NVIDIA AI City Challenge (2024) Track 3: Natural- istic Driving Action Recognition
 
-![framework](/assets/framework.png)
+<!-- ![framework](/assets/framework.png) -->
+
+<div align=center>
+<img src="assets/framework.png" width="700px" >
+</div>
 
 
 ## 
