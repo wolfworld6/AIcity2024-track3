@@ -1,6 +1,6 @@
 # Augmented Self-Mask Attention Transformer for Naturalistic Driving Action Recognition
 
-The 1nd Place Submission to The 8th NVIDIA AI City Challenge (2024) Track 3: Natural- istic Driving Action Recognition.
+The 1nd Place Submission to The 8th NVIDIA AI City Challenge (2024) Track 3: Naturalistic Driving Action Recognition.
 
 <!-- ![framework](/assets/framework.png) -->
 
