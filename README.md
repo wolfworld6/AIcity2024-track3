@@ -12,6 +12,9 @@ The 1nd Place Submission to The 8th NVIDIA AI City Challenge (2024) Track 3: Nat
 ## Data Structure
 ```
 Aicity2024-track3/data
+|--extracted_features/      # the extracted feats for dataset A1&A2
+|   |--A1/
+|   |--A2/
 |--raw_videos/              # original videos
 |   |--A1/                  
 |       |--user_id_xxx/

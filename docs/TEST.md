@@ -20,14 +20,14 @@ We recommend placing and treating dataset *__B__* like dataset *__A2__*
     ```
 
 ## 2. Feautre Extraction
-* Download weights <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp;.
+* Download weights <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp; and put it into `$BASE_DIR/feature_extraction/weights`.
 * Extracting video features of B dataset using trained weights.
 ```
 cd $BASE_DIR/feature_extraction
 
 python inference_video_feature_vitg.py \
     --video_dir $BASE_DIR/data/crop_videos/B \
-    --ckpt_pth trained-weights \
+    --ckpt_pth weights/videomae-v2_finetune_aicity.pth \
     --output_dir $BASE_DIR/data/extracted_features/B
 ```
 
