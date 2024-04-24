@@ -13,7 +13,7 @@ Please follow the instrctions in [INSTALL.md](../feature_extraction/docs/INSTALL
 ## Pretrain Weights
 We choose an open source pretrained weight in final competition. The weight needs to apply for download, so we provide network disk as follows to get the weight directly. You can download the weight and put it into *__weights__* folder of feature extraction.
     
-* Download [vit_g_hybrid_pt_1200e_k710_ft](https://github.com/OpenGVLab/VideoMAEv2/blob/master/docs/MODEL_ZOO.md).
+* Download [vit_g_hybrid_pt_1200e_k710_ft](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/internvideo/videomaev2/vit_g_hybrid_pt_1200e_k710_ft.pth).
 
 ## Fine-tune model on official data
 To fine-tune model (VideoMAEv2 with pretrain weight mentioned above) on the official dataset A1 with *__8xA100-40G__*, you can use the following command:
@@ -22,7 +22,7 @@ To fine-tune model (VideoMAEv2 with pretrain weight mentioned above) on the offi
 bash scripts/finetune/track3_vit_g_A1_ft.sh
 ``` 
 
-Also we provide finetuned models here: [finetuned models](https://drive.google.com/drive/folders/1y19_yF-mDi_SoHmPVYF0mfKepLcXufwB?usp=sharing). You can download them for feature extraction.
+Also we provide finetuned models here: [finetuned models](https://drive.google.com/drive/folders/1y19_yF-mDi_SoHmPVYF0mfKepLcXufwB?usp=sharing) or <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp;. You can download them for feature extraction.
 
 ## Inference to extract video features
 You can extract video features by running:
