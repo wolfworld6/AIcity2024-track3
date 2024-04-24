@@ -20,7 +20,7 @@ We recommend placing and treating dataset *__B__* like dataset *__A2__*
     ```
 
 ## 2. Feautre Extraction
-* [Download weights](xxx).
+* [Download weights](https://drive.google.com/drive/folders/1y19_yF-mDi_SoHmPVYF0mfKepLcXufwB).
 * Extracting video features of B dataset using trained weights.
 ```
 cd $BASE_DIR/feature_extraction
