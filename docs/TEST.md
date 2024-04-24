@@ -34,12 +34,19 @@ python inference_video_feature_vitg.py \
 ## 3. AMA
 <a id="TAD"></a>
 
-specify annotation json_file with `json_file: $BASE_DIR/data/label_submit_B.json`, feat_folder with  ` feat_folder: $BASE_DIR/data/extracted_features/B,` then run:
+1. Download weights [finetuned AMA](https://drive.google.com/drive/folders/13lT2GcsI-VK5z--8rirgR7nF6sZeiXo7?usp=sharing), put it into `$BASE_DIR/AMA/ckpt/aicity_ego_vitl_ckpt/`
+
+2. `cd $BASE_DIR/AMA` and modeify `configs/aicity_ego_vitl_deploy.yaml` :
+
+
+ ```
+ json_file: $BASE_DIR/data/label_submit_B.json,
+ feat_folder: $BASE_DIR/data/extracted_features/B,
+ ```
+ 3. run
 
 ```
-cd $BASE_DIR/AMA
-
-python eval.py ./configs/aicity_ego_vitl_deploy.yaml ckpt/aicity_ego_vitl_ckpt/mae2_f16_e20_1024_ide_4h_w9_feats_ego4d_vitl_f16_8h_9k_track3_crop_A1_train_A2_val/ --output_csv ../post_process/submmit_B.csv
+python eval.py ./configs/aicity_ego_vitl_deploy.yaml ckpt/aicity_ego_vitl_ckpt/mae2_f16_e20_1024_ide_4h_w9_feats_ego4d_vitl_f16_8h_9k_track3_crop_A1_train_A2_val/ --output_csv $BASE_DIR/post_process/submmit_B.csv
 ```
 
 ## 4. Post Process

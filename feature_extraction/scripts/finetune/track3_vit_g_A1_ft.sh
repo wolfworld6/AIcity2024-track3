@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 MASTER_PORT=$((12000 + $RANDOM % 20000))
-OUTPUT_DIR='./workdir/track3_videomae_ego_verb/Crop_Mix_lr_1e-3_epoch_35'
+OUTPUT_DIR='./weights/videomae-v2_finetune_aicity.pth'
 DATA_PATH='../data/splited_videos'
 MODEL_PATH='./weights/vit_g_hybrid_pt_1200e_k710_ft.pth'
 
-export CUDA_VISIBLE_DEVICES=1,2
 
 # batch_size can be adjusted according to the graphics card
 python -m torch.distributed.launch \
-        --nproc_per_node=2 --master_port ${MASTER_PORT} \
+        --nproc_per_node=8 --master_port ${MASTER_PORT} \
         --nnodes=1  --node_rank=0 --master_addr=localhost run_class_finetuning.py \
         --model vit_giant_patch14_224 \
         --data_set Track3 \

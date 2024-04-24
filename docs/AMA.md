@@ -21,11 +21,11 @@ cd ../..
 
 2. Change the aicity_ego_vitl.yaml
 
-    In aicity_ego_vitl.yaml, you can specify annotation json_file, video features, training split and validation split, e.t.c.
+    In `aicity_ego_vitl.yaml`, you can specify `annotation json_file`, `video features`, `training split` and `validation split`, e.t.c.
 
 
 # Train
- specify annotation json_file with "label_A1-train_A1-val.json", "feat_folder", then run:
+ specify `annotation json_file` with `label_A1-train_A1-val.json`, `feat_folder`, then run:
 ```
 python train.py ./configs/aicity_ego_vitl.yaml --output ckpt/mae2_f16_e20_1024_ide_4h_w9_feats_ego4d_vitl_f16_8h_9k_track3_crop_A1_train_A2_val/
 ```
