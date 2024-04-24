@@ -22,7 +22,7 @@ To fine-tune model (VideoMAEv2 with pretrain weight mentioned above) on the offi
 bash scripts/finetune/track3_vit_g_A1_ft.sh
 ``` 
 
-Also we provide finetuned models here: [finetuned models]() or <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp;. You can download them for feature extraction.
+Also we provide finetuned models here: <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp;. You can download them for feature extraction.
 
 ## Inference to extract video features
 You can extract video features by running:

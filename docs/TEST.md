@@ -20,7 +20,7 @@ We recommend placing and treating dataset *__B__* like dataset *__A2__*
     ```
 
 ## 2. Feautre Extraction
-* [Download weights](https://drive.google.com/drive/folders/1y19_yF-mDi_SoHmPVYF0mfKepLcXufwB).
+* Download weights <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp;.
 * Extracting video features of B dataset using trained weights.
 ```
 cd $BASE_DIR/feature_extraction
@@ -31,22 +31,22 @@ python inference_video_feature_vitg.py \
     --output_dir $BASE_DIR/data/extracted_features/B
 ```
 
-## 3. Temporal Action Detection
+## 3. AMA
 <a id="TAD"></a>
 
-specify annotation json_file with `label_submit_B.json`, `"pre_nms_topk: 3000"`, `"max_seg_num: 150"` then run:
+specify annotation json_file with `json_file: $BASE_DIR/data/label_submit_B.json`, feat_folder with  ` feat_folder: $BASE_DIR/data/extracted_features/B,` then run:
 
 ```
 cd $BASE_DIR/AMA
 
-python eval.py ./configs/aicity_ego_vitl.yaml ckpt/aicity_ego_vitl_ckpt/mae2_f16_e20_1024_ide_4h_w9_feats_ego4d_vitl_f16_8h_9k_track3_crop_A1_train_A2_val/
+python eval.py ./configs/aicity_ego_vitl_deploy.yaml ckpt/aicity_ego_vitl_ckpt/mae2_f16_e20_1024_ide_4h_w9_feats_ego4d_vitl_f16_8h_9k_track3_crop_A1_train_A2_val/ --output_csv ../post_process/submmit_B.csv
 ```
 
-## 4. Time Correction
+## 4. Post Process
 
-The `xxx.csv` from  [3. Temporal Action Detection](#TAD)
+The `submmit_B.csv` from  [3. AMA](#TAD)
 ```
 cd $BASE_DIR/post_process
 
-python generate_txt.py --csv_path xxx.csv --out_file submit/xxx.txt
+python generate_txt.py --csv_path submmit_B.csv --out_file submit/submmit_B.txt
 ```
