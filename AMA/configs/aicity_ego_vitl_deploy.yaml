@@ -3,8 +3,8 @@ devices: ['cuda:0']
 train_split: ['training']
 val_split: ['validation']
 dataset: {
-  json_file: ../data/label_A1-train_A1-val_v2.json,
-  feat_folder: ../data/extracted_features/A1,
+  json_file: ../data/label_submit.json,
+  feat_folder: ../data/extracted_features/A2,
   file_prefix: ~,
   file_ext: .npz,
   num_classes: 16,
@@ -49,8 +49,8 @@ train_cfg: {
   cont_loss_weight: 0.0
 }
 test_cfg: {
-  pre_nms_topk: 5000,
-  max_seg_num: 1536,
+  pre_nms_topk: 3000,
+  max_seg_num: 150,
   min_score: 0.2,
   nms_sigma : 0.25,
   multiclass_nms: True

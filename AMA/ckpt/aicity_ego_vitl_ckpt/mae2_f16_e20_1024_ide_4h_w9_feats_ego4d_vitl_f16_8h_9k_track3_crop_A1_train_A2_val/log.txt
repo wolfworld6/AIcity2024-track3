@@ -1,0 +1,336 @@
+2024-03-25 14:13:41,158 - __main__ - INFO - Epoch: [000][00050/00180]	Time 0.52 (0.52)	Loss 1.22 (1.22)
+		cls_loss 0.71 (0.71)	reg_loss 0.47 (0.47)	al_loss 0.16 (0.16)
+2024-03-25 14:13:56,881 - __main__ - INFO - Epoch: [000][00100/00180]	Time 0.32 (0.42)	Loss 0.54 (0.88)
+		cls_loss 0.23 (0.47)	reg_loss 0.30 (0.39)	al_loss 0.05 (0.11)
+2024-03-25 14:14:11,501 - __main__ - INFO - Epoch: [000][00150/00180]	Time 0.29 (0.38)	Loss 0.55 (0.77)
+		cls_loss 0.25 (0.40)	reg_loss 0.29 (0.36)	al_loss 0.04 (0.09)
+2024-03-25 14:14:20,044 - __main__ - INFO - [Train]: Epoch 0 finished with lr=0.00002002
+
+2024-03-25 14:14:37,881 - __main__ - INFO - Epoch: [001][00050/00180]	Time 0.36 (0.36)	Loss 0.56 (0.56)
+		cls_loss 0.31 (0.31)	reg_loss 0.24 (0.24)	al_loss 0.06 (0.06)
+2024-03-25 14:14:52,421 - __main__ - INFO - Epoch: [001][00100/00180]	Time 0.29 (0.32)	Loss 0.42 (0.49)
+		cls_loss 0.21 (0.26)	reg_loss 0.21 (0.22)	al_loss 0.03 (0.05)
+2024-03-25 14:15:07,448 - __main__ - INFO - Epoch: [001][00150/00180]	Time 0.30 (0.32)	Loss 0.39 (0.46)
+		cls_loss 0.17 (0.23)	reg_loss 0.21 (0.22)	al_loss 0.02 (0.04)
+2024-03-25 14:15:17,448 - __main__ - INFO - [Train]: Epoch 1 finished with lr=0.00004004
+
+2024-03-25 14:15:34,074 - __main__ - INFO - Epoch: [002][00050/00180]	Time 0.33 (0.33)	Loss 0.31 (0.31)
+		cls_loss 0.15 (0.15)	reg_loss 0.15 (0.15)	al_loss 0.03 (0.03)
+2024-03-25 14:15:50,990 - __main__ - INFO - Epoch: [002][00100/00180]	Time 0.34 (0.34)	Loss 0.30 (0.31)
+		cls_loss 0.13 (0.14)	reg_loss 0.17 (0.16)	al_loss 0.02 (0.02)
+2024-03-25 14:16:10,377 - __main__ - INFO - Epoch: [002][00150/00180]	Time 0.39 (0.35)	Loss 0.30 (0.31)
+		cls_loss 0.14 (0.14)	reg_loss 0.15 (0.16)	al_loss 0.02 (0.02)
+2024-03-25 14:16:19,744 - __main__ - INFO - [Train]: Epoch 2 finished with lr=0.00006007
+
+2024-03-25 14:16:35,738 - __main__ - INFO - Epoch: [003][00050/00180]	Time 0.32 (0.32)	Loss 0.22 (0.22)
+		cls_loss 0.11 (0.11)	reg_loss 0.11 (0.11)	al_loss 0.02 (0.02)
+2024-03-25 14:16:51,327 - __main__ - INFO - Epoch: [003][00100/00180]	Time 0.31 (0.32)	Loss 0.26 (0.24)
+		cls_loss 0.13 (0.12)	reg_loss 0.12 (0.12)	al_loss 0.02 (0.02)
+2024-03-25 14:17:06,503 - __main__ - INFO - Epoch: [003][00150/00180]	Time 0.30 (0.31)	Loss 0.25 (0.25)
+		cls_loss 0.12 (0.12)	reg_loss 0.12 (0.12)	al_loss 0.02 (0.02)
+2024-03-25 14:17:15,831 - __main__ - INFO - [Train]: Epoch 3 finished with lr=0.00008009
+
+2024-03-25 14:17:31,751 - __main__ - INFO - Epoch: [004][00050/00180]	Time 0.32 (0.32)	Loss 0.28 (0.28)
+		cls_loss 0.13 (0.13)	reg_loss 0.15 (0.15)	al_loss 0.01 (0.01)
+2024-03-25 14:17:47,236 - __main__ - INFO - Epoch: [004][00100/00180]	Time 0.31 (0.31)	Loss 0.29 (0.29)
+		cls_loss 0.15 (0.14)	reg_loss 0.14 (0.14)	al_loss 0.02 (0.02)
+2024-03-25 14:18:02,186 - __main__ - INFO - Epoch: [004][00150/00180]	Time 0.30 (0.31)	Loss 0.22 (0.26)
+		cls_loss 0.09 (0.12)	reg_loss 0.13 (0.14)	al_loss 0.01 (0.01)
+2024-03-25 14:18:11,175 - __main__ - INFO - [Train]: Epoch 4 finished with lr=0.00010000
+
+2024-03-25 14:18:26,995 - __main__ - INFO - Epoch: [005][00050/00180]	Time 0.32 (0.32)	Loss 0.23 (0.23)
+		cls_loss 0.12 (0.12)	reg_loss 0.11 (0.11)	al_loss 0.01 (0.01)
+2024-03-25 14:18:41,552 - __main__ - INFO - Epoch: [005][00100/00180]	Time 0.29 (0.30)	Loss 0.22 (0.22)
+		cls_loss 0.10 (0.11)	reg_loss 0.12 (0.11)	al_loss 0.02 (0.02)
+2024-03-25 14:18:57,859 - __main__ - INFO - Epoch: [005][00150/00180]	Time 0.33 (0.31)	Loss 0.19 (0.21)
+		cls_loss 0.09 (0.10)	reg_loss 0.10 (0.11)	al_loss 0.02 (0.02)
+2024-03-25 14:19:06,755 - __main__ - INFO - [Train]: Epoch 5 finished with lr=0.00009938
+
+2024-03-25 14:19:22,606 - __main__ - INFO - Epoch: [006][00050/00180]	Time 0.32 (0.32)	Loss 0.15 (0.15)
+		cls_loss 0.07 (0.07)	reg_loss 0.08 (0.08)	al_loss 0.01 (0.01)
+2024-03-25 14:19:37,843 - __main__ - INFO - Epoch: [006][00100/00180]	Time 0.30 (0.31)	Loss 0.26 (0.21)
+		cls_loss 0.13 (0.10)	reg_loss 0.13 (0.10)	al_loss 0.03 (0.02)
+2024-03-25 14:19:52,943 - __main__ - INFO - Epoch: [006][00150/00180]	Time 0.30 (0.31)	Loss 0.24 (0.22)
+		cls_loss 0.11 (0.10)	reg_loss 0.13 (0.11)	al_loss 0.01 (0.02)
+2024-03-25 14:20:01,778 - __main__ - INFO - [Train]: Epoch 6 finished with lr=0.00009755
+
+2024-03-25 14:20:19,553 - __main__ - INFO - Epoch: [007][00050/00180]	Time 0.36 (0.36)	Loss 0.15 (0.15)
+		cls_loss 0.08 (0.08)	reg_loss 0.07 (0.07)	al_loss 0.01 (0.01)
+2024-03-25 14:20:36,391 - __main__ - INFO - Epoch: [007][00100/00180]	Time 0.34 (0.35)	Loss 0.21 (0.18)
+		cls_loss 0.10 (0.09)	reg_loss 0.10 (0.09)	al_loss 0.01 (0.01)
+2024-03-25 14:20:52,583 - __main__ - INFO - Epoch: [007][00150/00180]	Time 0.32 (0.34)	Loss 0.63 (0.33)
+		cls_loss 0.45 (0.21)	reg_loss 0.16 (0.11)	al_loss 0.08 (0.04)
+2024-03-25 14:21:01,203 - __main__ - INFO - [Train]: Epoch 7 finished with lr=0.00009455
+
+2024-03-25 14:21:17,037 - __main__ - INFO - Epoch: [008][00050/00180]	Time 0.32 (0.32)	Loss 0.15 (0.15)
+		cls_loss 0.07 (0.07)	reg_loss 0.08 (0.08)	al_loss 0.01 (0.01)
+2024-03-25 14:21:31,114 - __main__ - INFO - Epoch: [008][00100/00180]	Time 0.28 (0.30)	Loss 0.16 (0.16)
+		cls_loss 0.07 (0.07)	reg_loss 0.09 (0.08)	al_loss 0.00 (0.01)
+2024-03-25 14:21:47,100 - __main__ - INFO - Epoch: [008][00150/00180]	Time 0.32 (0.31)	Loss 0.14 (0.15)
+		cls_loss 0.06 (0.07)	reg_loss 0.08 (0.08)	al_loss 0.01 (0.01)
+2024-03-25 14:21:56,364 - __main__ - INFO - [Train]: Epoch 8 finished with lr=0.00009045
+
+2024-03-25 14:21:56,367 - __main__ - INFO - start validate map&recall of epoch 8
+2024-03-25 14:22:09,136 - __main__ - INFO - tIoU = 0.1: mAP = 94.25 %
+2024-03-25 14:22:09,136 - __main__ - INFO - tIoU = 0.2: mAP = 93.35 %
+2024-03-25 14:22:09,136 - __main__ - INFO - tIoU = 0.3: mAP = 92.39 %
+2024-03-25 14:22:09,137 - __main__ - INFO - tIoU = 0.4: mAP = 91.38 %
+2024-03-25 14:22:09,137 - __main__ - INFO - tIoU = 0.5: mAP = 86.69 %
+2024-03-25 14:22:09,137 - __main__ - INFO - Average Map is : 91.61 %
+2024-03-25 14:22:13,798 - __main__ - INFO - Current Best Average Map is  : [epoch 8],  91.61 %
+2024-03-25 14:22:30,962 - __main__ - INFO - Epoch: [009][00050/00180]	Time 0.34 (0.34)	Loss 0.16 (0.16)
+		cls_loss 0.07 (0.07)	reg_loss 0.09 (0.09)	al_loss 0.01 (0.01)
+2024-03-25 14:22:45,364 - __main__ - INFO - Epoch: [009][00100/00180]	Time 0.29 (0.32)	Loss 0.13 (0.15)
+		cls_loss 0.05 (0.06)	reg_loss 0.07 (0.08)	al_loss 0.00 (0.01)
+2024-03-25 14:23:00,970 - __main__ - INFO - Epoch: [009][00150/00180]	Time 0.31 (0.31)	Loss 0.13 (0.14)
+		cls_loss 0.06 (0.06)	reg_loss 0.07 (0.08)	al_loss 0.01 (0.01)
+2024-03-25 14:23:09,524 - __main__ - INFO - [Train]: Epoch 9 finished with lr=0.00008536
+
+2024-03-25 14:23:09,526 - __main__ - INFO - start validate map&recall of epoch 9
+2024-03-25 14:23:16,452 - __main__ - INFO - tIoU = 0.1: mAP = 94.46 %
+2024-03-25 14:23:16,452 - __main__ - INFO - tIoU = 0.2: mAP = 93.53 %
+2024-03-25 14:23:16,452 - __main__ - INFO - tIoU = 0.3: mAP = 92.61 %
+2024-03-25 14:23:16,452 - __main__ - INFO - tIoU = 0.4: mAP = 91.70 %
+2024-03-25 14:23:16,452 - __main__ - INFO - tIoU = 0.5: mAP = 88.11 %
+2024-03-25 14:23:16,452 - __main__ - INFO - Average Map is : 92.08 %
+2024-03-25 14:23:21,246 - __main__ - INFO - Current Best Average Map is  : [epoch 9],  92.08 %
+2024-03-25 14:23:38,872 - __main__ - INFO - Epoch: [010][00050/00180]	Time 0.35 (0.35)	Loss 0.18 (0.18)
+		cls_loss 0.09 (0.09)	reg_loss 0.09 (0.09)	al_loss 0.01 (0.01)
+2024-03-25 14:23:54,683 - __main__ - INFO - Epoch: [010][00100/00180]	Time 0.32 (0.33)	Loss 0.17 (0.18)
+		cls_loss 0.08 (0.09)	reg_loss 0.09 (0.09)	al_loss 0.01 (0.01)
+2024-03-25 14:24:11,429 - __main__ - INFO - Epoch: [010][00150/00180]	Time 0.33 (0.33)	Loss 0.13 (0.16)
+		cls_loss 0.06 (0.08)	reg_loss 0.07 (0.08)	al_loss 0.00 (0.01)
+2024-03-25 14:24:21,079 - __main__ - INFO - [Train]: Epoch 10 finished with lr=0.00007939
+
+2024-03-25 14:24:21,081 - __main__ - INFO - start validate map&recall of epoch 10
+2024-03-25 14:24:34,437 - __main__ - INFO - tIoU = 0.1: mAP = 94.66 %
+2024-03-25 14:24:34,437 - __main__ - INFO - tIoU = 0.2: mAP = 93.73 %
+2024-03-25 14:24:34,437 - __main__ - INFO - tIoU = 0.3: mAP = 92.82 %
+2024-03-25 14:24:34,437 - __main__ - INFO - tIoU = 0.4: mAP = 91.98 %
+2024-03-25 14:24:34,437 - __main__ - INFO - tIoU = 0.5: mAP = 88.79 %
+2024-03-25 14:24:34,438 - __main__ - INFO - Average Map is : 92.40 %
+2024-03-25 14:24:39,348 - __main__ - INFO - Current Best Average Map is  : [epoch 10],  92.40 %
+2024-03-25 14:24:56,825 - __main__ - INFO - Epoch: [011][00050/00180]	Time 0.35 (0.35)	Loss 0.12 (0.12)
+		cls_loss 0.06 (0.06)	reg_loss 0.06 (0.06)	al_loss 0.00 (0.00)
+2024-03-25 14:25:15,498 - __main__ - INFO - Epoch: [011][00100/00180]	Time 0.37 (0.36)	Loss 0.11 (0.12)
+		cls_loss 0.05 (0.06)	reg_loss 0.06 (0.06)	al_loss 0.00 (0.00)
+2024-03-25 14:25:33,220 - __main__ - INFO - Epoch: [011][00150/00180]	Time 0.35 (0.36)	Loss 0.13 (0.12)
+		cls_loss 0.06 (0.06)	reg_loss 0.06 (0.06)	al_loss 0.00 (0.00)
+2024-03-25 14:25:41,768 - __main__ - INFO - [Train]: Epoch 11 finished with lr=0.00007270
+
+2024-03-25 14:25:41,770 - __main__ - INFO - start validate map&recall of epoch 11
+2024-03-25 14:25:49,868 - __main__ - INFO - tIoU = 0.1: mAP = 94.73 %
+2024-03-25 14:25:49,868 - __main__ - INFO - tIoU = 0.2: mAP = 93.85 %
+2024-03-25 14:25:49,868 - __main__ - INFO - tIoU = 0.3: mAP = 92.92 %
+2024-03-25 14:25:49,868 - __main__ - INFO - tIoU = 0.4: mAP = 91.57 %
+2024-03-25 14:25:49,868 - __main__ - INFO - tIoU = 0.5: mAP = 89.79 %
+2024-03-25 14:25:49,868 - __main__ - INFO - Average Map is : 92.57 %
+2024-03-25 14:25:54,605 - __main__ - INFO - Current Best Average Map is  : [epoch 11],  92.57 %
+2024-03-25 14:26:10,751 - __main__ - INFO - Epoch: [012][00050/00180]	Time 0.32 (0.32)	Loss 0.14 (0.14)
+		cls_loss 0.06 (0.06)	reg_loss 0.08 (0.08)	al_loss 0.00 (0.00)
+2024-03-25 14:26:26,141 - __main__ - INFO - Epoch: [012][00100/00180]	Time 0.31 (0.32)	Loss 0.14 (0.14)
+		cls_loss 0.07 (0.06)	reg_loss 0.07 (0.07)	al_loss 0.00 (0.00)
+2024-03-25 14:26:41,195 - __main__ - INFO - Epoch: [012][00150/00180]	Time 0.30 (0.31)	Loss 0.13 (0.13)
+		cls_loss 0.06 (0.06)	reg_loss 0.06 (0.07)	al_loss 0.00 (0.00)
+2024-03-25 14:26:50,751 - __main__ - INFO - [Train]: Epoch 12 finished with lr=0.00006545
+
+2024-03-25 14:26:50,754 - __main__ - INFO - start validate map&recall of epoch 12
+2024-03-25 14:26:57,353 - __main__ - INFO - tIoU = 0.1: mAP = 94.94 %
+2024-03-25 14:26:57,353 - __main__ - INFO - tIoU = 0.2: mAP = 93.96 %
+2024-03-25 14:26:57,353 - __main__ - INFO - tIoU = 0.3: mAP = 93.04 %
+2024-03-25 14:26:57,353 - __main__ - INFO - tIoU = 0.4: mAP = 91.64 %
+2024-03-25 14:26:57,353 - __main__ - INFO - tIoU = 0.5: mAP = 90.04 %
+2024-03-25 14:26:57,353 - __main__ - INFO - Average Map is : 92.72 %
+2024-03-25 14:27:02,246 - __main__ - INFO - Current Best Average Map is  : [epoch 12],  92.72 %
+2024-03-25 14:27:18,763 - __main__ - INFO - Epoch: [013][00050/00180]	Time 0.33 (0.33)	Loss 0.12 (0.12)
+		cls_loss 0.06 (0.06)	reg_loss 0.06 (0.06)	al_loss 0.00 (0.00)
+2024-03-25 14:27:35,440 - __main__ - INFO - Epoch: [013][00100/00180]	Time 0.33 (0.33)	Loss 0.13 (0.13)
+		cls_loss 0.07 (0.06)	reg_loss 0.06 (0.06)	al_loss 0.01 (0.00)
+2024-03-25 14:27:50,178 - __main__ - INFO - Epoch: [013][00150/00180]	Time 0.29 (0.32)	Loss 0.13 (0.13)
+		cls_loss 0.06 (0.06)	reg_loss 0.07 (0.06)	al_loss 0.00 (0.00)
+2024-03-25 14:28:02,013 - __main__ - INFO - [Train]: Epoch 13 finished with lr=0.00005783
+
+2024-03-25 14:28:02,015 - __main__ - INFO - start validate map&recall of epoch 13
+2024-03-25 14:28:11,375 - __main__ - INFO - tIoU = 0.1: mAP = 95.03 %
+2024-03-25 14:28:11,376 - __main__ - INFO - tIoU = 0.2: mAP = 94.06 %
+2024-03-25 14:28:11,376 - __main__ - INFO - tIoU = 0.3: mAP = 93.25 %
+2024-03-25 14:28:11,376 - __main__ - INFO - tIoU = 0.4: mAP = 92.11 %
+2024-03-25 14:28:11,376 - __main__ - INFO - tIoU = 0.5: mAP = 90.64 %
+2024-03-25 14:28:11,376 - __main__ - INFO - Average Map is : 93.02 %
+2024-03-25 14:28:16,527 - __main__ - INFO - Current Best Average Map is  : [epoch 13],  93.02 %
+2024-03-25 14:28:32,386 - __main__ - INFO - Epoch: [014][00050/00180]	Time 0.32 (0.32)	Loss 0.10 (0.10)
+		cls_loss 0.05 (0.05)	reg_loss 0.05 (0.05)	al_loss 0.00 (0.00)
+2024-03-25 14:28:47,063 - __main__ - INFO - Epoch: [014][00100/00180]	Time 0.29 (0.31)	Loss 0.11 (0.10)
+		cls_loss 0.05 (0.05)	reg_loss 0.06 (0.06)	al_loss 0.02 (0.01)
+2024-03-25 14:29:01,463 - __main__ - INFO - Epoch: [014][00150/00180]	Time 0.29 (0.30)	Loss 0.10 (0.10)
+		cls_loss 0.04 (0.05)	reg_loss 0.05 (0.05)	al_loss 0.01 (0.01)
+2024-03-25 14:29:10,115 - __main__ - INFO - [Train]: Epoch 14 finished with lr=0.00005001
+
+2024-03-25 14:29:10,117 - __main__ - INFO - start validate map&recall of epoch 14
+2024-03-25 14:29:17,488 - __main__ - INFO - tIoU = 0.1: mAP = 95.02 %
+2024-03-25 14:29:17,488 - __main__ - INFO - tIoU = 0.2: mAP = 94.14 %
+2024-03-25 14:29:17,488 - __main__ - INFO - tIoU = 0.3: mAP = 92.85 %
+2024-03-25 14:29:17,488 - __main__ - INFO - tIoU = 0.4: mAP = 92.05 %
+2024-03-25 14:29:17,488 - __main__ - INFO - tIoU = 0.5: mAP = 91.07 %
+2024-03-25 14:29:17,489 - __main__ - INFO - Average Map is : 93.03 %
+2024-03-25 14:29:22,434 - __main__ - INFO - Current Best Average Map is  : [epoch 14],  93.03 %
+2024-03-25 14:29:38,256 - __main__ - INFO - Epoch: [015][00050/00180]	Time 0.32 (0.32)	Loss 0.10 (0.10)
+		cls_loss 0.05 (0.05)	reg_loss 0.05 (0.05)	al_loss 0.02 (0.02)
+2024-03-25 14:29:53,513 - __main__ - INFO - Epoch: [015][00100/00180]	Time 0.31 (0.31)	Loss 0.11 (0.11)
+		cls_loss 0.05 (0.05)	reg_loss 0.06 (0.05)	al_loss 0.00 (0.01)
+2024-03-25 14:30:09,613 - __main__ - INFO - Epoch: [015][00150/00180]	Time 0.32 (0.31)	Loss 0.08 (0.10)
+		cls_loss 0.04 (0.05)	reg_loss 0.05 (0.05)	al_loss 0.00 (0.01)
+2024-03-25 14:30:18,531 - __main__ - INFO - [Train]: Epoch 15 finished with lr=0.00004218
+
+2024-03-25 14:30:18,533 - __main__ - INFO - start validate map&recall of epoch 15
+2024-03-25 14:30:25,442 - __main__ - INFO - tIoU = 0.1: mAP = 95.05 %
+2024-03-25 14:30:25,442 - __main__ - INFO - tIoU = 0.2: mAP = 94.18 %
+2024-03-25 14:30:25,442 - __main__ - INFO - tIoU = 0.3: mAP = 92.88 %
+2024-03-25 14:30:25,442 - __main__ - INFO - tIoU = 0.4: mAP = 92.09 %
+2024-03-25 14:30:25,442 - __main__ - INFO - tIoU = 0.5: mAP = 91.11 %
+2024-03-25 14:30:25,442 - __main__ - INFO - Average Map is : 93.06 %
+2024-03-25 14:30:30,260 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:30:46,712 - __main__ - INFO - Epoch: [016][00050/00180]	Time 0.33 (0.33)	Loss 0.09 (0.09)
+		cls_loss 0.04 (0.04)	reg_loss 0.05 (0.05)	al_loss 0.00 (0.00)
+2024-03-25 14:31:01,853 - __main__ - INFO - Epoch: [016][00100/00180]	Time 0.30 (0.32)	Loss 0.09 (0.09)
+		cls_loss 0.04 (0.04)	reg_loss 0.05 (0.05)	al_loss 0.01 (0.01)
+2024-03-25 14:31:18,057 - __main__ - INFO - Epoch: [016][00150/00180]	Time 0.32 (0.32)	Loss 0.09 (0.09)
+		cls_loss 0.04 (0.04)	reg_loss 0.05 (0.05)	al_loss 0.00 (0.00)
+2024-03-25 14:31:26,567 - __main__ - INFO - [Train]: Epoch 16 finished with lr=0.00003456
+
+2024-03-25 14:31:26,570 - __main__ - INFO - start validate map&recall of epoch 16
+2024-03-25 14:31:32,717 - __main__ - INFO - tIoU = 0.1: mAP = 95.05 %
+2024-03-25 14:31:32,717 - __main__ - INFO - tIoU = 0.2: mAP = 94.07 %
+2024-03-25 14:31:32,717 - __main__ - INFO - tIoU = 0.3: mAP = 92.76 %
+2024-03-25 14:31:32,717 - __main__ - INFO - tIoU = 0.4: mAP = 92.09 %
+2024-03-25 14:31:32,717 - __main__ - INFO - tIoU = 0.5: mAP = 90.84 %
+2024-03-25 14:31:32,717 - __main__ - INFO - Average Map is : 92.96 %
+2024-03-25 14:31:32,718 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:31:49,277 - __main__ - INFO - Epoch: [017][00050/00180]	Time 0.33 (0.33)	Loss 0.07 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.01 (0.01)
+2024-03-25 14:32:04,536 - __main__ - INFO - Epoch: [017][00100/00180]	Time 0.31 (0.32)	Loss 0.09 (0.08)
+		cls_loss 0.04 (0.03)	reg_loss 0.05 (0.04)	al_loss 0.01 (0.01)
+2024-03-25 14:32:20,879 - __main__ - INFO - Epoch: [017][00150/00180]	Time 0.33 (0.32)	Loss 0.07 (0.08)
+		cls_loss 0.04 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.01 (0.01)
+2024-03-25 14:32:30,295 - __main__ - INFO - [Train]: Epoch 17 finished with lr=0.00002731
+
+2024-03-25 14:32:30,297 - __main__ - INFO - start validate map&recall of epoch 17
+2024-03-25 14:32:39,486 - __main__ - INFO - tIoU = 0.1: mAP = 95.04 %
+2024-03-25 14:32:39,487 - __main__ - INFO - tIoU = 0.2: mAP = 94.06 %
+2024-03-25 14:32:39,487 - __main__ - INFO - tIoU = 0.3: mAP = 92.59 %
+2024-03-25 14:32:39,487 - __main__ - INFO - tIoU = 0.4: mAP = 92.10 %
+2024-03-25 14:32:39,487 - __main__ - INFO - tIoU = 0.5: mAP = 90.64 %
+2024-03-25 14:32:39,487 - __main__ - INFO - Average Map is : 92.89 %
+2024-03-25 14:32:39,487 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:32:58,715 - __main__ - INFO - Epoch: [018][00050/00180]	Time 0.38 (0.38)	Loss 0.07 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:33:15,170 - __main__ - INFO - Epoch: [018][00100/00180]	Time 0.33 (0.36)	Loss 0.08 (0.08)
+		cls_loss 0.04 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:33:30,593 - __main__ - INFO - Epoch: [018][00150/00180]	Time 0.31 (0.34)	Loss 0.07 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:33:39,579 - __main__ - INFO - [Train]: Epoch 18 finished with lr=0.00002062
+
+2024-03-25 14:33:39,581 - __main__ - INFO - start validate map&recall of epoch 18
+2024-03-25 14:33:47,346 - __main__ - INFO - tIoU = 0.1: mAP = 95.02 %
+2024-03-25 14:33:47,347 - __main__ - INFO - tIoU = 0.2: mAP = 94.04 %
+2024-03-25 14:33:47,347 - __main__ - INFO - tIoU = 0.3: mAP = 92.65 %
+2024-03-25 14:33:47,347 - __main__ - INFO - tIoU = 0.4: mAP = 92.01 %
+2024-03-25 14:33:47,347 - __main__ - INFO - tIoU = 0.5: mAP = 90.34 %
+2024-03-25 14:33:47,347 - __main__ - INFO - Average Map is : 92.81 %
+2024-03-25 14:33:47,347 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:34:03,769 - __main__ - INFO - Epoch: [019][00050/00180]	Time 0.33 (0.33)	Loss 0.06 (0.06)
+		cls_loss 0.03 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:34:19,183 - __main__ - INFO - Epoch: [019][00100/00180]	Time 0.31 (0.32)	Loss 0.08 (0.07)
+		cls_loss 0.04 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:34:33,557 - __main__ - INFO - Epoch: [019][00150/00180]	Time 0.29 (0.31)	Loss 0.07 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.03 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:34:43,048 - __main__ - INFO - [Train]: Epoch 19 finished with lr=0.00001465
+
+2024-03-25 14:34:43,050 - __main__ - INFO - start validate map&recall of epoch 19
+2024-03-25 14:34:49,975 - __main__ - INFO - tIoU = 0.1: mAP = 94.94 %
+2024-03-25 14:34:49,976 - __main__ - INFO - tIoU = 0.2: mAP = 93.96 %
+2024-03-25 14:34:49,976 - __main__ - INFO - tIoU = 0.3: mAP = 92.44 %
+2024-03-25 14:34:49,976 - __main__ - INFO - tIoU = 0.4: mAP = 91.80 %
+2024-03-25 14:34:49,976 - __main__ - INFO - tIoU = 0.5: mAP = 89.50 %
+2024-03-25 14:34:49,976 - __main__ - INFO - Average Map is : 92.53 %
+2024-03-25 14:34:49,976 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:35:06,447 - __main__ - INFO - Epoch: [020][00050/00180]	Time 0.33 (0.33)	Loss 0.07 (0.07)
+		cls_loss 0.04 (0.04)	reg_loss 0.03 (0.03)	al_loss 0.02 (0.02)
+2024-03-25 14:35:21,365 - __main__ - INFO - Epoch: [020][00100/00180]	Time 0.30 (0.31)	Loss 0.09 (0.08)
+		cls_loss 0.05 (0.04)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.01)
+2024-03-25 14:35:37,031 - __main__ - INFO - Epoch: [020][00150/00180]	Time 0.31 (0.31)	Loss 0.06 (0.08)
+		cls_loss 0.03 (0.04)	reg_loss 0.03 (0.04)	al_loss 0.00 (0.01)
+2024-03-25 14:35:46,694 - __main__ - INFO - [Train]: Epoch 20 finished with lr=0.00000956
+
+2024-03-25 14:35:46,696 - __main__ - INFO - start validate map&recall of epoch 20
+2024-03-25 14:35:53,899 - __main__ - INFO - tIoU = 0.1: mAP = 94.84 %
+2024-03-25 14:35:53,899 - __main__ - INFO - tIoU = 0.2: mAP = 93.85 %
+2024-03-25 14:35:53,900 - __main__ - INFO - tIoU = 0.3: mAP = 92.20 %
+2024-03-25 14:35:53,900 - __main__ - INFO - tIoU = 0.4: mAP = 91.56 %
+2024-03-25 14:35:53,900 - __main__ - INFO - tIoU = 0.5: mAP = 89.30 %
+2024-03-25 14:35:53,900 - __main__ - INFO - Average Map is : 92.35 %
+2024-03-25 14:35:53,900 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:36:10,140 - __main__ - INFO - Epoch: [021][00050/00180]	Time 0.32 (0.32)	Loss 0.06 (0.06)
+		cls_loss 0.03 (0.03)	reg_loss 0.03 (0.03)	al_loss 0.00 (0.00)
+2024-03-25 14:36:25,764 - __main__ - INFO - Epoch: [021][00100/00180]	Time 0.31 (0.32)	Loss 0.09 (0.07)
+		cls_loss 0.05 (0.04)	reg_loss 0.04 (0.03)	al_loss 0.01 (0.01)
+2024-03-25 14:36:41,572 - __main__ - INFO - Epoch: [021][00150/00180]	Time 0.32 (0.32)	Loss 0.08 (0.08)
+		cls_loss 0.04 (0.04)	reg_loss 0.05 (0.04)	al_loss 0.00 (0.01)
+2024-03-25 14:36:50,512 - __main__ - INFO - [Train]: Epoch 21 finished with lr=0.00000546
+
+2024-03-25 14:36:50,515 - __main__ - INFO - start validate map&recall of epoch 21
+2024-03-25 14:36:56,773 - __main__ - INFO - tIoU = 0.1: mAP = 94.72 %
+2024-03-25 14:36:56,773 - __main__ - INFO - tIoU = 0.2: mAP = 93.78 %
+2024-03-25 14:36:56,773 - __main__ - INFO - tIoU = 0.3: mAP = 92.06 %
+2024-03-25 14:36:56,773 - __main__ - INFO - tIoU = 0.4: mAP = 91.43 %
+2024-03-25 14:36:56,774 - __main__ - INFO - tIoU = 0.5: mAP = 89.18 %
+2024-03-25 14:36:56,774 - __main__ - INFO - Average Map is : 92.24 %
+2024-03-25 14:36:56,774 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:37:13,392 - __main__ - INFO - Epoch: [022][00050/00180]	Time 0.33 (0.33)	Loss 0.06 (0.06)
+		cls_loss 0.03 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:37:29,406 - __main__ - INFO - Epoch: [022][00100/00180]	Time 0.32 (0.33)	Loss 0.08 (0.07)
+		cls_loss 0.04 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.01 (0.01)
+2024-03-25 14:37:45,858 - __main__ - INFO - Epoch: [022][00150/00180]	Time 0.33 (0.33)	Loss 0.06 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.03 (0.04)	al_loss 0.00 (0.01)
+2024-03-25 14:37:55,305 - __main__ - INFO - [Train]: Epoch 22 finished with lr=0.00000246
+
+2024-03-25 14:37:55,308 - __main__ - INFO - start validate map&recall of epoch 22
+2024-03-25 14:38:02,256 - __main__ - INFO - tIoU = 0.1: mAP = 94.68 %
+2024-03-25 14:38:02,256 - __main__ - INFO - tIoU = 0.2: mAP = 93.75 %
+2024-03-25 14:38:02,256 - __main__ - INFO - tIoU = 0.3: mAP = 92.03 %
+2024-03-25 14:38:02,257 - __main__ - INFO - tIoU = 0.4: mAP = 91.31 %
+2024-03-25 14:38:02,257 - __main__ - INFO - tIoU = 0.5: mAP = 89.16 %
+2024-03-25 14:38:02,257 - __main__ - INFO - Average Map is : 92.18 %
+2024-03-25 14:38:02,257 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:38:19,337 - __main__ - INFO - Epoch: [023][00050/00180]	Time 0.34 (0.34)	Loss 0.14 (0.14)
+		cls_loss 0.07 (0.07)	reg_loss 0.06 (0.06)	al_loss 0.04 (0.04)
+2024-03-25 14:38:34,583 - __main__ - INFO - Epoch: [023][00100/00180]	Time 0.30 (0.32)	Loss 0.05 (0.09)
+		cls_loss 0.02 (0.05)	reg_loss 0.03 (0.04)	al_loss 0.00 (0.02)
+2024-03-25 14:38:50,673 - __main__ - INFO - Epoch: [023][00150/00180]	Time 0.32 (0.32)	Loss 0.06 (0.08)
+		cls_loss 0.03 (0.04)	reg_loss 0.03 (0.04)	al_loss 0.00 (0.02)
+2024-03-25 14:38:59,191 - __main__ - INFO - [Train]: Epoch 23 finished with lr=0.00000063
+
+2024-03-25 14:38:59,193 - __main__ - INFO - start validate map&recall of epoch 23
+2024-03-25 14:39:06,725 - __main__ - INFO - tIoU = 0.1: mAP = 94.48 %
+2024-03-25 14:39:06,725 - __main__ - INFO - tIoU = 0.2: mAP = 93.54 %
+2024-03-25 14:39:06,726 - __main__ - INFO - tIoU = 0.3: mAP = 91.83 %
+2024-03-25 14:39:06,726 - __main__ - INFO - tIoU = 0.4: mAP = 91.20 %
+2024-03-25 14:39:06,726 - __main__ - INFO - tIoU = 0.5: mAP = 89.21 %
+2024-03-25 14:39:06,726 - __main__ - INFO - Average Map is : 92.05 %
+2024-03-25 14:39:06,726 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %
+2024-03-25 14:39:23,430 - __main__ - INFO - Epoch: [024][00050/00180]	Time 0.33 (0.33)	Loss 0.07 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.00 (0.00)
+2024-03-25 14:39:39,535 - __main__ - INFO - Epoch: [024][00100/00180]	Time 0.32 (0.33)	Loss 0.06 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.03 (0.03)	al_loss 0.01 (0.01)
+2024-03-25 14:39:53,903 - __main__ - INFO - Epoch: [024][00150/00180]	Time 0.29 (0.31)	Loss 0.07 (0.07)
+		cls_loss 0.03 (0.03)	reg_loss 0.04 (0.04)	al_loss 0.01 (0.01)
+2024-03-25 14:40:02,191 - __main__ - INFO - [Train]: Epoch 24 finished with lr=0.00000001
+
+2024-03-25 14:40:02,193 - __main__ - INFO - start validate map&recall of epoch 24
+2024-03-25 14:40:08,544 - __main__ - INFO - tIoU = 0.1: mAP = 94.35 %
+2024-03-25 14:40:08,544 - __main__ - INFO - tIoU = 0.2: mAP = 93.57 %
+2024-03-25 14:40:08,544 - __main__ - INFO - tIoU = 0.3: mAP = 91.69 %
+2024-03-25 14:40:08,544 - __main__ - INFO - tIoU = 0.4: mAP = 91.07 %
+2024-03-25 14:40:08,545 - __main__ - INFO - tIoU = 0.5: mAP = 89.08 %
+2024-03-25 14:40:08,545 - __main__ - INFO - Average Map is : 91.95 %
+2024-03-25 14:40:08,545 - __main__ - INFO - Current Best Average Map is  : [epoch 15],  93.06 %

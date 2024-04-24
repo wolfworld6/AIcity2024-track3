@@ -158,7 +158,9 @@ def main(args):
         cfg['output_folder'], cfg_filename)
     if not os.path.exists(ckpt_folder):
         os.mkdir(ckpt_folder)
-
+    if not os.path.exists(os.path.dirname(args.output_csv)):
+        os.makedirs(os.path.dirname(args.output_csv), exist_ok=True)
+    
     log_dir = ckpt_folder
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
@@ -225,6 +227,7 @@ def main(args):
     start = time.time()
     mAP = valid_one_epoch(
         val_loader,
+        args.output_csv,
         model,
         -1,
         evaluator=det_eval,
@@ -243,18 +246,13 @@ def main(args):
 if __name__ == '__main__':
     """Entry Point"""
     # the arg parser
-    parser = argparse.ArgumentParser(
-      description='Train a point-based transformer for action localization')
-    parser.add_argument('config', type=str, metavar='DIR',
-                        help='path to a config file')
-    parser.add_argument('ckpt', type=str, metavar='DIR',
-                        help='path to a checkpoint')
-    parser.add_argument('-t', '--topk', default=-1, type=int,
-                        help='max number of output actions (default: -1)')
-    parser.add_argument('--saveonly', action='store_true',
-                        help='Only save the ouputs without evaluation (e.g., for test set)')
-    parser.add_argument('-p', '--print-freq', default=10, type=int,
-                        help='print frequency (default: 10 iterations)')
+    parser = argparse.ArgumentParser(description='Train a point-based transformer for action localization')
+    parser.add_argument('config', type=str, metavar='DIR', help='path to a config file')
+    parser.add_argument('ckpt', type=str, metavar='DIR', help='path to a checkpoint')
+    parser.add_argument('--output_csv', type=str, default='A2', help='path to a csv')
+    parser.add_argument('-t', '--topk', default=-1, type=int, help='max number of output actions (default: -1)')
+    parser.add_argument('--saveonly', action='store_true', help='Only save the ouputs without evaluation (e.g., for test set)')
+    parser.add_argument('-p', '--print-freq', default=10, type=int, help='print frequency (default: 10 iterations)')
     args = parser.parse_args()
 
     main(args)

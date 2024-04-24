@@ -451,6 +451,7 @@ def validate_loss(
 
 def valid_one_epoch(
     val_loader,
+    output_csv,
     model,
     curr_epoch,
     ext_score_file = None,
@@ -528,7 +529,7 @@ def valid_one_epoch(
     if (ext_score_file is not None) and isinstance(ext_score_file, str):
         results = postprocess_results(results, ext_score_file)
     # call the evaluator
-    mAP, avg_mAP, tiou_thresholds = evaluator.evaluate(results, verbose=False)
+    mAP, avg_mAP, tiou_thresholds = evaluator.evaluate(results, output_csv, verbose=False)
     for tiou, tiou_mAP in zip(tiou_thresholds, mAP):
         logger.info(f'tIoU = {tiou:.1f}: mAP = {tiou_mAP * 100:.2f} %')
     logger.info(f'Average Map is :{avg_mAP * 100: .2f} %')

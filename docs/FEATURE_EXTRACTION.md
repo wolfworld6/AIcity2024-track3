@@ -22,7 +22,7 @@ To fine-tune model (VideoMAEv2 with pretrain weight mentioned above) on the offi
 bash scripts/finetune/track3_vit_g_A1_ft.sh
 ``` 
 
-Also we provide finetuned models here: [finetuned models](https://drive.google.com/drive/folders/1y19_yF-mDi_SoHmPVYF0mfKepLcXufwB?usp=sharing) or <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp;. You can download them for feature extraction.
+Also we provide finetuned models here: [finetuned models]() or <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp;. You can download them for feature extraction.
 
 ## Inference to extract video features
 You can extract video features by running:
@@ -30,13 +30,13 @@ You can extract video features by running:
 # extract video feats for A1
 python inference_video_feature_vitg.py \
     --video_dir $BASE_DIR/data/crop_videos/A1 \
-    --ckpt_pth workdir/track3_videomae_ego_verb/Crop_Mix_lr_1e-3_epoch_35/checkpoint-best/mp_rank_00_model_states.pt \
+    --ckpt_pth weights/videomae-v2_finetune_aicity.pth \
     --output_dir $BASE_DIR/data/extracted_features/A1
 
 # extract video feats for A2
 python inference_video_feature_vitg.py \
     --video_dir $BASE_DIR/data/crop_videos/A2 \
-    --ckpt_pth workdir/track3_videomae_ego_verb/Crop_Mix_lr_1e-3_epoch_35/checkpoint-best/mp_rank_00_model_states.pt \
+    --ckpt_pth weights/videomae-v2_finetune_aicity.pth \
     --output_dir $BASE_DIR/data/extracted_features/A2
 ```
 

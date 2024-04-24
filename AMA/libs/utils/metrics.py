@@ -181,7 +181,7 @@ class ANETdetection(object):
 
         return ap
 
-    def evaluate(self, preds, verbose=True):
+    def evaluate(self, preds, output_csv, verbose=True):
         """Evaluates a prediction file. For the detection task we measure the
         interpolated mean average precision to measure the performance of a
         method.
@@ -209,7 +209,8 @@ class ANETdetection(object):
         # make the label ids consistent
         preds['label'] = preds['label'].replace(self.activity_index)
         logger.info("Generate the res csv file!")
-        preds.to_csv('act_pre_ego_crop_AMA_mae2_f16_f16_8h_9k_submmit.csv', mode='w')
+        
+        preds.to_csv(output_csv, mode='w')
         # compute mAP
         self.ap = self.wrapper_compute_average_precision(preds)
         mAP = self.ap.mean(axis=1)
