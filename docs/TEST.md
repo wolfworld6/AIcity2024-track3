@@ -20,7 +20,7 @@ We recommend placing and treating dataset *__B__* like dataset *__A2__*
     ```
 
 ## 2. Feautre Extraction
-* Download weights <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> 🤗</a>&nbsp; and put it into `$BASE_DIR/feature_extraction/weights`.
+* Download weights  <a href="https://huggingface.co/wolfutopia/videomae-v2_finetune_aicity"> videomae-v2_finetune_aicity.pth 🤗</a>&nbsp; and put it into `$BASE_DIR/feature_extraction/weights`.
 * Extracting video features of B dataset using trained weights.
 ```
 cd $BASE_DIR/feature_extraction
