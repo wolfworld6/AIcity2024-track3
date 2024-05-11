@@ -6,6 +6,12 @@ export BASE_DIR=/xxx/AIcity2024-track3
 cd $BASE_DIR/preprocess
 ```
 
+## Install
+```
+cd yolov5
+pip install -r requirements.txt
+```
+
 ## Preprocess Train Videos
 
 1. Detect driver spatial location in the video, then crop each video based on the driver bounding box.
